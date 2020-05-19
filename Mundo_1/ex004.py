@@ -1,0 +1,5 @@
+n = input('entry a value: ')
+print('what is the type?', type(n))
+print('is n numeric?', n.isnumeric())
+print('is n lower?', n.islower())
+print("is n afanumeric?", n.isalnum())
