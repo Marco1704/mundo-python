@@ -1,0 +1,17 @@
+team = ('Palmeiras', 'Flamengo', 'Internacional', 'Grêmio', 'São Paulo', 'Atlético-MG', 'Athletico-PR', 'Cruzeiro',
+        'Botafogo', 'Santos', 'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceará',
+        'Vasco', 'Sport', 'América-MG', 'Vitória', 'Paraná')
+print('-=-' * 15)
+print('League Table Analysis')
+print('-=-' * 15)
+print('-=-' * 15)
+print(f'The full team list: {team}')
+print('-=-' * 15)
+print(f'The first five places in the league are: {team[0:5]}')
+print('-=-' * 15)
+print(f'Teams at the botton of the table are: {team[-4:]}')
+print('-=-' * 15)
+print(sorted(team))
+print('-=-' * 15)
+print(f'The Chapecoense team is on the: {team.index("Chapecoense")+1}th position')
+print('-=-' * 15)
